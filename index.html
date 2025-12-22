@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Code Breaker Game</title>
+  <script type="module" crossorigin src="/code-breaker-game/assets/index-CqxbyaxQ.js"></script>
+  <link rel="stylesheet" crossorigin href="/code-breaker-game/assets/index-Dup1N3ct.css">
+</head>
+<body>
+<main id="game-container">
+    <div id="confetti-container"></div>
+    <div id="feedback-message" class="hidden"></div>
+
+    <section id="landing-page">
+        <h1>Code Breaker</h1>
+        <h2>Choose Your Character</h2>
+        <div id="player-selection-container">
+            <div class="player-card" id="player-lilly">
+                <img src="/code-breaker-game/lilly.png" alt="LillyBean">
+                <p>LillyBean</p>
+            </div>
+            <div class="player-card" id="player-elsie">
+                <img src="/code-breaker-game/elsie.png" alt="Elsie & Evie">
+                <p>Elsie & Evie</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="puzzle-page" class="hidden">
+        <div id="puzzle-header">
+            <h2 id="puzzle-title">Decode the Riddle</h2>
+            <div id="puzzle-avatar-container">
+                <img id="puzzle-avatar" src="" alt="Player Avatar">
+                <p id="puzzle-player-name"></p>
+            </div>
+        </div>
+
+        <div id="cipher-key-container">
+            <h3>Cipher Key</h3>
+            <div id="cipher-key"></div>
+        </div>
+
+        <div id="current-word-container">
+            <h3>Solve this word:</h3>
+            <p id="current-encrypted-word"></p>
+            <form id="guess-form">
+                <label for="player-guess">Your decoded word:</label>
+                <input type="text" id="player-guess" name="player-guess" required autocomplete="off"/>
+                <button type="submit">Submit Guess</button>
+            </form>
+        </div>
+
+        <div id="solution-so-far-container">
+            <h3>Riddle So Far:</h3>
+            <p id="solution-so-far"></p>
+        </div>
+
+        <div id="full-encrypted-riddle-container">
+            <h3>Full Encrypted Riddle:</h3>
+            <p id="full-encrypted-riddle"></p>
+        </div>
+
+    </section>
+
+    <section id="solution-page" class="hidden">
+        <h2>Congratulations!</h2>
+        <p>You've solved the puzzle. Here is your final riddle:</p>
+        <p id="final-riddle"></p>
+    </section>
+</main>
+
+</body>
+</html>
