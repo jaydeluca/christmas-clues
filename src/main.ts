@@ -28,8 +28,8 @@ const finalRiddleEl = document.getElementById('final-riddle') as HTMLParagraphEl
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 
 const players: { [key: string]: { name: string; avatar: string } } = {
-  'Lilly': { name: 'LillyBean', avatar: '/lilly.png' },
-  'Elsie': { name: 'Elsie & Evie', avatar: '/elsie.png' }
+  'Lilly': { name: 'LillyBean', avatar: 'lilly.png' },
+  'Elsie': { name: 'Elsie & Evie', avatar: 'elsie.png' }
 };
 
 // --- Game State ---
