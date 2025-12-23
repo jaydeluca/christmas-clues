@@ -9,7 +9,7 @@ const feedbackMessageEl = document.getElementById('feedback-message') as HTMLDiv
 const confettiContainer = document.getElementById('confetti-container') as HTMLDivElement;
 
 
-const playerLillyCard = document.getElementById('player-lilly') as HTMLDivElement;
+const playerLilyCard = document.getElementById('player-lily') as HTMLDivElement;
 const playerElsieCard = document.getElementById('player-elsie') as HTMLDivElement;
 
 // Puzzle page elements
@@ -28,7 +28,7 @@ const finalRiddleEl = document.getElementById('final-riddle') as HTMLParagraphEl
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 
 const players: { [key: string]: { name: string; avatar: string } } = {
-  'Lilly': { name: 'LillyBean', avatar: 'lilly.png' },
+  'Lily': { name: 'LilyBean', avatar: 'lily.png' },
   'Elsie': { name: 'Elsie & Evie', avatar: 'elsie.png' }
 };
 
@@ -184,7 +184,7 @@ function startGame(playerName: keyof typeof players) {
   puzzlePage.classList.remove('hidden');
 }
 
-playerLillyCard.addEventListener('click', () => startGame('Lilly'));
+playerLilyCard.addEventListener('click', () => startGame('Lily'));
 playerElsieCard.addEventListener('click', () => startGame('Elsie'));
 
 guessForm.addEventListener('submit', (event) => {
