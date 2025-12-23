@@ -5,7 +5,7 @@ export const cipherKey: { [key: string]: string } = {
 };
 
 export const riddles: { [key: string]: string } = {
-  'Lilly': `Your hunt is almost at the end,
+  'Lily': `Your hunt is almost at the end,
 One last place to go, my friend.
 In the garage where cars stay tight,
 Near something cold and frosty white.`,
