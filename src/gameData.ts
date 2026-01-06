@@ -5,13 +5,13 @@ export const cipherKey: { [key: string]: string } = {
 };
 
 export const riddles: { [key: string]: string } = {
-  'Lily': `Your hunt is almost at the end,
+  'Lilly': `Your hunt is almost at the end,
 One last place to go, my friend.
 In the garage where cars stay tight,
 Near something cold and frosty white.`,
-  'Elsie': `I have cities, but no houses,
-I have mountains, but no trees.
-I have water, but no fish.
-What am I?`
+  'Elsie': `I’m part of the house but not in sight,
+I’m cooler than warm and darker than bright.
+Below the floors, under it all,
+That’s where the last surprises call.`
 };
 
