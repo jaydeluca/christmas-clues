@@ -9,9 +9,9 @@ export const riddles: { [key: string]: string } = {
 One last place to go, my friend.
 In the garage where cars stay tight,
 Near something cold and frosty white.`,
-  'Elsie': `I’m part of the house but not in sight,
-I’m cooler than warm and darker than bright.
-Below the floors, under it all,
-That’s where the last surprises call.`
+  'Elsie': `The newest room hides one last space,
+Not seen at first when you wash your face.
+I’m not a tub, I’m not a sink,
+Open the door and start to think.`
 };
 
